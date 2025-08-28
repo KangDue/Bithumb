@@ -1,0 +1,28 @@
+Daily Development Log
+
+Date: 2023-10-25
+- 가상환경 설정 및 패키지 설치 완료
+- Git 저장소 초기화
+- 기본 프로그램 구조 (main.py) 생성
+- pybithumb API 통합 및 API 키 입력 UI 추가
+- 거래 전략 (MA Crossover, RSI, Bollinger Bands) 및 백테스팅 기능 구현
+- PyQt5 UI 탭 기반 설계 (API, Strategies, Backtesting, Chart)
+- pyqtgraph를 사용한 차트 시각화 추가
+- 단위 테스트 작성 및 실행 (pytest)
+- README.md 문서화
+
+Date: 2023-10-26
+- 코인 선택 UI 구현
+- 차트 간격 조정 기능 추가
+- 계좌 정보 (잔고, 주문서, 수수료) GUI 통합
+- WebSocket 실시간 모니터링 구현
+- load_chart 함수 오류 수정 (df None 처리)
+- 코인 콤보박스 옆 검색 기능 추가 (모든 탭)
+- 백테스팅 틱 간격 선택 기능 구현
+- 플로팅 FutureWarning 수정
+- 추가 기능 테스트 및 디버깅
+- README.md 및 work_log.txt 업데이트
+
+Issues: QWidget 생성 순서 오류 및 FutureWarning 해결
+
+Next Plan: 프로젝트 완료 및 사용자 피드백 수집
